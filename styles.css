@@ -1,0 +1,66 @@
+/* SOS Button Styling */
+#sos-button {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #ff4444;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 20px auto;
+    color: white;
+    font-size: 24px;
+    position: relative;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% { transform: scale(0.95); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(0.95); }
+}
+
+/* Status Bar */
+#status-bar {
+    position: absolute;
+    bottom: -60px;
+    text-align: center;
+}
+
+.network-status {
+    width: 50px;
+    height: 50px;
+    background: #4CAF50;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+/* Chat */
+#chat-container {
+    width: 300px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.message {
+    padding: 8px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.medical {
+    background: #ffcccc;
+}
+
+.hazard {
+    background: #ffffcc;
+}
+
+/* Map */
+#map {
+    height: 300px;
+    width: 80%;
+    margin: 20px auto;
+}
